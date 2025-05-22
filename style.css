@@ -1,1 +1,202 @@
 /* Add styles here */
+body{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    min-height: 100vh; /* Ensure body takes full viewport height */
+    font-family: "Roboto", sans-serif;
+
+}
+.firstcolor{
+    background-color: #1F2937;
+    width: 100%;
+    height: 60vh;
+    padding-top: 80px; /* Approximate height of your header (padding + content) */
+
+    
+
+}
+.logo p{
+    font-weight:900;
+    margin-left:10px;
+    color:#F9FAF8;
+
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: #1F2937;
+    align-items: center;
+    box-sizing: border-box; /* Include padding in width calculation */
+
+
+    padding:20px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    padding:20px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+a{
+    text-decoration:none;
+    color:#F9FAF8;
+
+}
+.headerlinks{
+    display:flex;
+    gap:20px;
+}
+.text1{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+     max-width: 400px;
+    
+}
+.text1 h1{
+    font-weight:900;
+    color:#F9FAF8;
+
+}
+.text1 p{
+    color:#E5E7EB;
+}
+.button1{
+    max-width: 200px;
+    background-color:#3882F6;
+    border-radius:20px;
+    padding:10px;
+    border:1px solid #3882F6;
+    color: #E5E7EB;
+    font-weight: 400;
+
+
+}
+.secondcolor{
+    text-align: center;
+}
+.secondcolor h1{
+    color:#1F2937;
+    font-weight:900;
+    padding:5px;
+}
+.imgcard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:20px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+
+}
+
+.thirdcolo{
+    display: flex;
+    gap: 200px;
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(45, 85, 71);
+    align-items: center;
+    justify-content: space-around;
+
+
+
+}
+.quote1{
+    margin-left: 20px;
+    font-weight:900;
+    font-size:30px;
+    padding:0;
+}
+ .quote2{
+      justify-content: center;
+      text-decoration:underline;  
+      text-decoration-color: blue;
+      text-decoration-thickness: 3px;
+     flex:0;
+}  
+.quotephoto {
+    display: flex;
+}
+.thirdcolo img{
+    width: 300px;
+    height: auto;
+}
+.fourthcolor{
+    display: flex;
+    height: 36vh;
+    align-items: center;
+    justify-content: center;
+}
+.card2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid ;
+    border-color: #156be2;
+    background-color: #156be2;
+    padding: 10px;
+    border-radius: 20px;
+    width: 70%;
+
+
+}
+.button2{
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid #E5E7EB;
+    background-color: #156be2;
+    color: #E5E7EB;
+    font-weight: 400;
+    
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1F2937;
+}
+.secondcolor img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .logo {
+    width: 80px; /* Fixed width works better than percentages for logos */
+    height: auto; /* Maintain aspect ratio */
+    display: flex; /* Better for alignment */
+    align-items: center; /* Vertically center logo */
+}
+
+.logo img {
+    width: 100%; /* Make image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 40px; /* Optional: set maximum height */
+    object-fit: contain; /* Ensures whole logo is visible */
+}
